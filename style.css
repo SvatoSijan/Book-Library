@@ -1,0 +1,27 @@
+#library{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: bisque;
+    min-height: 50vh;
+    margin: min(40px, 5%);
+}
+form{
+    margin: 50px;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(251, 210, 161);
+    border: 2px solid rgb(255, 246, 235);
+    margin: 25px;
+    align-items: center;
+}
+.book .title{
+    font-size: larger;
+    color: brown;
+    align-self: center;
+}
+.book>*{
+    margin: 5px;
+}
